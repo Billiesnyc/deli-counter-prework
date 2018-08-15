@@ -11,5 +11,4 @@ def line(deli)
         end
       formatted_line
     end
-
 end
