@@ -9,6 +9,6 @@ def line(deli)
         deli.each do |name|
           formatted_line.push(name.index + 1 + ". " + name.join(" "))
         end
-      formatted_line
+      puts "The line is currently:" + formatted_line
     end
 end
