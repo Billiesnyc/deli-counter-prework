@@ -16,6 +16,7 @@ end
 def take_a_number(deli, name)
   if deli.length == 0 
     deli.push(name)
+    puts "Welcome, #{name}. You are number #{name.index + 1} in line."
   else
     deli.push(name)
   end
