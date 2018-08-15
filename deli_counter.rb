@@ -27,5 +27,5 @@ def now_serving (deli)
   if deli.length == 0 
     puts "There is nobody waiting to be served!"
   else 
-    
+    deli.shift(name)
 end
