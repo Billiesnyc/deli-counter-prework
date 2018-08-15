@@ -7,6 +7,7 @@ def line(deli)
     else 
       puts "The line is currently:" + deli.each do |name| 
         puts name.index + 1 + ". " + name + " "
+      end
     end
 
 end
