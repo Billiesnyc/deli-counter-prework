@@ -7,7 +7,7 @@ def line(deli)
     else 
       formatted_line = []
         deli.each do |name|
-          formatted_line.push(deli.index(name) + 1 + ". " + name.join(" "))
+          formatted_line.push(deli.index(name).to_i + 1 + ". " + name.join(" "))
         end
         puts "The line is currently:" + formatted_line
     end
