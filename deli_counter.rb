@@ -17,4 +17,6 @@ def take_a_number(deli, name)
   if deli.length == 0 
     deli.push(name)
   else
-    
+    deli.push(name)
+  end
+end
