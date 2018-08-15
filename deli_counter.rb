@@ -19,5 +19,6 @@ def take_a_number(deli, name)
     puts "Welcome, #{name}. You are number #{name.index + 1} in line."
   else
     deli.push(name)
+    "Welcome, #{name}. You are number #{name.index + 1} in line."
   end
 end
