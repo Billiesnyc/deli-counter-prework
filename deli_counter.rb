@@ -5,11 +5,7 @@ def line(deli)
     if deli.length == 0 
       puts "The line is currently empty."
     else 
-      formatted_line = []
-        deli.each_index do |name|
-          formatted_line.push(name 
-        end
-        puts "The line is currently:" + formatted_line
+        puts "The line is currently:" +  deli.each_index do |name| 
     end
 end
 
